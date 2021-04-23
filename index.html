@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-section">
+            <h1>Sign Up Here</h1>
+            <form action="">
+                <input type="text" name="first-name" id="first-name" placeholder="First Name" value="" required>
+
+                <input type="text" name="last-name" id="last-name" placeholder="Last Name" value=""  required>
+
+                <input type="date" name="date-of-birth" id="date-of-birth" value="" required>
+
+                <div class="genders">
+                    <div class="male-gender">
+                        <input type="radio" name="gender" id="male" value="male">
+                        <label for="male">Male</label>
+                    </div>
+                    
+                    <div class="female-gender">
+                        <input type="radio" name="gender" id="female" value="female">
+                        <label for="female">Female</label>
+                    </div>    
+                </div>
+
+                <input type="email" name="email" id="email" placeholder="E-mail or Phone" value="">
+
+                <input type="password" placeholder="Password" name="password" id="password" value="">
+
+                <input type="password" placeholder="Confirm Password" name="confirm-password" id="confirm-password" value="">
+
+                <div class="terms-box">
+                    <input type="checkbox" name="terms" id="terms">
+                    <label for="terms">I agree to all the terms and conditions of this website.</label>
+                </div>
+
+                
+            </form>
+            <button type="submit">Sign Up</button>
+        </div>
+        <div class="illustration">
+            <img src="form.svg" alt="form-illu">
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
